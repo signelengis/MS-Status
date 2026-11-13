@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Azure Status</title><link>https://azure.status.microsoft/en-us/status/</link>
+<item>
+  <guid isPermaLink="false">TEST-001</guid>
+  <link>https://azure.status.microsoft/en-us/status</link>
+  <title>Test fixture – Azure Virtual Machines – connectivity issues in South Central US and East US 2</title>
+  <description><![CDATA[<p><strong>Impact Statement:</strong> Starting at 12:40 UTC on 13 Nov 2026, a subset of customers using Virtual Machines in South Central US and East US 2 may experience intermittent connectivity failures.</p><p><strong>Current Status:</strong> Engineers are investigating. The next update will be provided within 60 minutes.</p>]]></description>
+  <pubDate>Fri, 13 Nov 2026 13:05:00 Z</pubDate>
+</item>
+<item>
+  <guid isPermaLink="false">TEST-002</guid>
+  <link>https://azure.status.microsoft/en-us/status</link>
+  <title>Test fixture – Azure Storage – West Europe</title>
+  <description><![CDATA[<p>Between 02:10 and 03:45 UTC, customers in West Europe may have seen elevated latency. This issue has been mitigated.</p>]]></description>
+  <pubDate>Fri, 13 Nov 2026 04:00:00 Z</pubDate>
+</item>
+</channel></rss>

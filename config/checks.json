@@ -1,0 +1,69 @@
+{
+  "title": "Microsoft services status",
+  "defaults": {
+    "timeoutMs": 10000,
+    "slowMs": 3000,
+    "certWarnDays": 14
+  },
+  "groups": [
+    {
+      "name": "Microsoft 365",
+      "checks": [
+        {
+          "name": "Sign-in (Entra ID)",
+          "url": "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration"
+        },
+        {
+          "name": "Outlook on the web",
+          "url": "https://outlook.office.com/owa/"
+        },
+        {
+          "name": "Exchange Online",
+          "url": "https://outlook.office365.com/"
+        },
+        {
+          "name": "Teams",
+          "url": "https://teams.microsoft.com/"
+        },
+        {
+          "name": "Microsoft 365 home",
+          "url": "https://www.microsoft365.com/"
+        },
+        {
+          "name": "Microsoft Graph",
+          "url": "https://graph.microsoft.com/v1.0/",
+          "okStatus": [200, 401]
+        },
+        {
+          "name": "SharePoint / OneDrive",
+          "url": "https://YOUR-TENANT.sharepoint.com/",
+          "enabled": false,
+          "note": "Replace YOUR-TENANT with your SharePoint tenant name, then set enabled to true."
+        }
+      ]
+    },
+    {
+      "name": "Azure",
+      "checks": [
+        {
+          "name": "Azure portal",
+          "url": "https://portal.azure.com/"
+        },
+        {
+          "name": "Azure Resource Manager",
+          "url": "https://management.azure.com/",
+          "okStatus": [400, 401, 404]
+        }
+      ]
+    },
+    {
+      "name": "County sites",
+      "checks": [
+        {
+          "name": "dentoncounty.gov",
+          "url": "https://www.dentoncounty.gov/"
+        }
+      ]
+    }
+  ]
+}

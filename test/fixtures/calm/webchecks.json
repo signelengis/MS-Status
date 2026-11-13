@@ -1,0 +1,56 @@
+{
+ "Sign-in (Entra ID)": {
+  "status": 200,
+  "latencyMs": 180,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "Outlook on the web": {
+  "status": 200,
+  "latencyMs": 240,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "Exchange Online": {
+  "status": 200,
+  "latencyMs": 210,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "Teams": {
+  "status": 200,
+  "latencyMs": 320,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "Microsoft 365 home": {
+  "status": 200,
+  "latencyMs": 290,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "Microsoft Graph": {
+  "status": 401,
+  "latencyMs": 150,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "Azure portal": {
+  "status": 200,
+  "latencyMs": 410,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "Azure Resource Manager": {
+  "status": 400,
+  "latencyMs": 130,
+  "ok": true,
+  "certDaysLeft": 120
+ },
+ "dentoncounty.gov": {
+  "status": 200,
+  "latencyMs": 520,
+  "ok": true,
+  "certDaysLeft": 120
+ }
+}

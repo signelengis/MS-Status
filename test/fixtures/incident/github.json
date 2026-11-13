@@ -1,0 +1,76 @@
+{
+ "page": {
+  "updated_at": "2026-11-13T13:57:00Z"
+ },
+ "status": {
+  "indicator": "minor",
+  "description": "Partial System Outage"
+ },
+ "components": [
+  {
+   "name": "Git Operations",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Webhooks",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "API Requests",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Issues",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Pull Requests",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Actions",
+   "status": "degraded_performance",
+   "group": false
+  },
+  {
+   "name": "Packages",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Pages",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Codespaces",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Copilot",
+   "status": "operational",
+   "group": false
+  },
+  {
+   "name": "Visit www.githubstatus.com for more information",
+   "status": "operational",
+   "group": false
+  }
+ ],
+ "incidents": [
+  {
+   "name": "Test fixture: delayed Actions runs",
+   "impact": "minor",
+   "status": "investigating",
+   "shortlink": "https://stspg.io/example",
+   "updated_at": "2026-11-13T13:40:00Z"
+  }
+ ],
+ "scheduled_maintenances": []
+}
